@@ -14,14 +14,12 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
 # 📖 Vet Clinic Database <a name="about-project"></a>
 
-**Vet Clinic Database** is a...
+A simple database for a vet clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,6 +32,7 @@
 
 In order to run this project you need:
 
+- A working POSTGRESQL installation
 
 ### Setup
 
@@ -46,15 +45,12 @@ git clone https://github.com/preciousbetine/microverse-vet-clinic-db.git
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+To run the project:
+- Launch the postgresql shell
+- Connect to an already existing database or create a new one
+- Run the commands in the `schema.sql` file to create the tables
+- Run the commands in the `data.sql` file to populate the tables with data
+- Run the commands in the `queries.sql` file to query the database
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,19 +84,6 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, give it a ⭐️!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-No acknowledgements.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ <a name="faq"></a>
-
-No FAQs.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
