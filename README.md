@@ -19,7 +19,7 @@
 
 # 📖 Vet Clinic Database <a name="about-project"></a>
 
-A simple database for a vet clinic
+A simple database for a vet clinic.
 
 ## 🛠 Built With <a name="built-with"></a>
 
