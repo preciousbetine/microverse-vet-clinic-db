@@ -22,3 +22,10 @@ BEGIN TRANSACTION;
   DELETE FROM animals;
 ROLLBACK TRANSACTION;
 
+BEGIN TRANSACTION;
+  DELETE FROM animals WHERE date_of_birth > 'Jan 1, 2022';
+  SAVEPOINT delete_young_animals;
+  UPDATE animals SET weight_kg = weight_kg * -1;
+  ROLLBACK TO SAVEPOINT delete_young_animals;
+  UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
+COMMIT TRANSACTION;
