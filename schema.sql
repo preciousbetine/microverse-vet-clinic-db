@@ -36,3 +36,10 @@ ADD CONSTRAINT owner_constraint
 FOREIGN KEY (owner_id)
 REFERENCES owners (id);
 
+CREATE TABLE vets (
+    id integer GENERATED ALWAYS AS IDENTITY,
+    name varchar(100),
+    age integer,
+    date_of_graduation date,
+    PRIMARY KEY(id)
+);
