@@ -51,8 +51,9 @@ CREATE TABLE specializations (
 );
 
 CREATE TABLE visits (
+    id integer GENERATED ALWAYS AS IDENTITY,
     animal_id integer,
     vet_id integer,
     date_of_visit date,
-    PRIMARY KEY(animal_id, vet_id)
+    PRIMARY KEY(id)
 );
