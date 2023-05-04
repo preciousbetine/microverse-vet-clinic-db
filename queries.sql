@@ -23,7 +23,7 @@ SELECT COUNT(*) FROM animals;
 SELECT COUNT(*) FROM animals WHERE escape_attempts = 0;
 -- Average weight of all animals
 SELECT AVG(weight_kg) FROM animals;
--- Class of animals that escape the most: neutered on not
+-- Class of animals that escape the most: neutered or not
 SELECT neutered, SUM(escape_attempts) FROM animals GROUP BY neutered;
 -- Minimum and maximum weights from each class of animal: neutered and non-neutered
 SELECT neutered, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY neutered;
@@ -119,7 +119,7 @@ WHERE date_of_visit = (
   WHERE vets.name = 'William Tatcher'
 );
 
--- Number of differennt animals Stephanie Mendez has seen
+-- Number of different animals Stephanie Mendez has seen
 SELECT
 DISTINCT vets.name AS this_vet_has_seen,
 COUNT(animals.name) AS this_number_of_animals
