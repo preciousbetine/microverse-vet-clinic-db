@@ -21,6 +21,9 @@
 
 A simple database for a vet clinic.
 
+### Database Schema Diagram
+![Schema diagram](https://github.com/preciousbetine/microverse-vet-clinic-db/assets/56425107/e2d81ce9-5fd1-4406-a56e-647136164f49)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
