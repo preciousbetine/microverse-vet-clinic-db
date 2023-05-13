@@ -22,7 +22,7 @@
 A simple database for a vet clinic.
 
 ### Database Schema Diagram
-![Schema diagram](https://github.com/preciousbetine/microverse-vet-clinic-db/assets/56425107/e2d81ce9-5fd1-4406-a56e-647136164f49)
+![Schema Diagram](https://github.com/preciousbetine/microverse-vet-clinic-db/assets/56425107/e19d3f6c-8e2b-49f1-a5dc-0ece211d84e3)
 
 ## 🛠 Built With <a name="built-with"></a>
 
