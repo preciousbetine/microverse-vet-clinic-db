@@ -71,7 +71,7 @@ To run the project:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-None for now
+None for now.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
